@@ -1,0 +1,38 @@
+INFO log.py:128 SELECT DATABASE()
+INFO log.py:128 [raw sql] {}
+INFO log.py:128 SELECT @@sql_mode
+INFO log.py:128 [raw sql] {}
+INFO log.py:128 SELECT @@lower_case_table_names
+INFO log.py:128 [raw sql] {}
+INFO log.py:128 BEGIN (implicit)
+INFO log.py:128 SELECT COUNT(*) FROM information_schema.tables WHERE table_schema = %(table_schema)s AND table_name = %(table_name)s
+INFO log.py:128 [generated in 0.00070s] {'table_schema': 'order_wechat', 'table_name': 'user'}
+INFO log.py:128 SELECT COUNT(*) FROM information_schema.tables WHERE table_schema = %(table_schema)s AND table_name = %(table_name)s
+INFO log.py:128 [cached since 0.004893s ago] {'table_schema': 'order_wechat', 'table_name': 'member'}
+INFO log.py:128 SELECT COUNT(*) FROM information_schema.tables WHERE table_schema = %(table_schema)s AND table_name = %(table_name)s
+INFO log.py:128 [cached since 0.007596s ago] {'table_schema': 'order_wechat', 'table_name': 'students'}
+INFO log.py:128 SELECT COUNT(*) FROM information_schema.tables WHERE table_schema = %(table_schema)s AND table_name = %(table_name)s
+INFO log.py:128 [cached since 0.01051s ago] {'table_schema': 'order_wechat', 'table_name': 'oauth_member_bind'}
+INFO log.py:128 COMMIT
+INFO _internal.py:224  * Running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO _internal.py:224  * Restarting with stat
+WARNING _internal.py:224  * Debugger is active!
+INFO _internal.py:224  * Debugger PIN: 987-712-571
+INFO _internal.py:224 127.0.0.1 - - [19/Jun/2022 17:37:47] "[33mGET / HTTP/1.1[0m" 404 -
+INFO _internal.py:224  * Detected change in 'D:\\DataCenter\\onWorking\\order_wechat\\manager.py', reloading
+INFO _internal.py:224  * Restarting with stat
+WARNING _internal.py:224  * Debugger is active!
+INFO _internal.py:224  * Debugger PIN: 987-712-571
+INFO _internal.py:224 127.0.0.1 - - [19/Jun/2022 17:38:22] "GET / HTTP/1.1" 200 -
+INFO _internal.py:224  * Detected change in 'D:\\DataCenter\\onWorking\\order_wechat\\manager.py', reloading
+INFO _internal.py:224  * Restarting with stat
+WARNING _internal.py:224  * Debugger is active!
+INFO _internal.py:224  * Debugger PIN: 987-712-571
+INFO _internal.py:224  * Detected change in 'D:\\DataCenter\\onWorking\\order_wechat\\common\\Helper.py', reloading
+INFO _internal.py:224  * Restarting with stat
+WARNING _internal.py:224  * Debugger is active!
+INFO _internal.py:224  * Debugger PIN: 987-712-571
+INFO _internal.py:224  * Detected change in 'D:\\DataCenter\\onWorking\\order_wechat\\common\\Helper.py', reloading
+INFO _internal.py:224  * Restarting with stat
+WARNING _internal.py:224  * Debugger is active!
+INFO _internal.py:224  * Debugger PIN: 987-712-571
